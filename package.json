@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.ts",
     "watch": "tsc -w",
+    "start": "nodemon src/server.ts",
     "lint": "eslint --ext .js,.ts .",
     "init": "tsc --init",
-    "build": "",
+    "build": "tsc -p",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "keywords": [],
